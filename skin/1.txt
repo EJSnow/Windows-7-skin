@@ -1,0 +1,657 @@
+; Windows 7 lookalike skin. Modded Windows Aero and WIN7LIKE skins.
+
+About=Windows 7 lookalike for CSM 4.3.0 or later. Can you tell the difference?\n\nWindows 7 is a trademark of Microsoft.
+AboutIcon=1
+Version=3
+
+;MAIN BITMAP SECTION - describes the background of the main menu
+Main_bitmap=1
+Main_bitmap_search=3
+Main_bitmap_jump=5
+Main_bitmap_mask=2
+Main_bitmap_search_mask=4
+Main_bitmap_jump_mask=6
+Main_opacity=glass
+Main2_opacity=fullglass
+Main_bitmap_slices_X=13,1,6,0,145,7
+Main_bitmap_search_slices_X=13,2,13
+Main_bitmap_jump_slices_X=13,1,3,1,1,13
+Main_bitmap_slices_Y=13,467,14
+Main_bitmap_search_slices_Y=13,358,14
+Main_bitmap_jump_slices_Y=13,358,14
+
+;MAIN MENU SECTION - describes the menu portion of the main menu
+Main_large_icons=1
+Main_font="Segoe UI",normal,-9
+Main_background=#FFFFFF
+Main_text_color=#000000,#000000,#7F7F7F,#7F7F7F
+Main_padding=10,10,3,11
+Main_search_padding=10,11,11,11
+Main_jump_padding=11,10,11,11
+Main_selection=28
+Main_selection_slices_X=4,1,4
+Main_selection_slices_Y=5,66,5
+Main_split_selection=29
+Main_split_selection_slices_X=4,1,3,2,1,4
+Main_split_selection_slices_Y=5,66,5
+Main_new_selection=30
+Main_new_selection_slices_X=4,1,4
+Main_new_selection_slices_Y=5,66,5
+Main_pager=31
+Main_pager_slices_X=3,10,3
+Main_pager_slices_Y=3,9,3
+Main_pager_arrows=32
+Main_arrow_color=#000000,#000000
+Main_arrow_padding=8,12,100%
+Main_split_arrow_padding=10,12,100%
+Main_separator=34
+Main_separator_slices_X=8,6,8
+Main_text_padding=2,2,8,3,75%
+
+; Second column
+Main2_text_color=#FFFFFF,#FFFFFF,#7F7F7F,#7F7F7F
+Main2_padding=5,10,7,11
+Main2_selection=37
+Main2_selection_slices_X=5,63,5
+Main2_selection_slices_Y=6,20,6
+Main2_selection_mask=0
+Main2_split_selection=38
+Main2_split_selection_slices_X=5,58,2,1,6,5
+Main2_split_selection_slices_Y=6,20,6
+Main2_split_selection_mask=0
+Main2_arrow_color=#FFFFFF,#FFFFFF
+Main2_separator=39
+Main2_separator_slices_X=15,100,15
+Main2_icon_padding=3,3,3,3,100%
+Main2_arrow_padding=6,8,100%
+Main2_text_padding=1,10,6,10,100%
+
+; Shutdown button
+Shutdown_selection=42
+Shutdown_search_selection=43
+Shutdown_jump_selection=43
+Shutdown_selection_search_mask=0
+Shutdown_selection_jump_mask=0
+Shutdown_selection_slices_X=5,10,3,2,7,5
+Shutdown_selection_slices_Y=4,40,4
+Shutdown_padding=0,9,0,8,100%
+Shutdown_text_padding=8,4,9,5,100%
+Shutdown_icon_padding=5,3,-5,3,100%
+Shutdown_text_color=#FFFFFF,#FFFFFF
+Shutdown_search_text_color=#000000,#000000
+Shutdown_jump_text_color=#000000,#000000
+Shutdown_arrow=47
+Shutdown_search_arrow=48
+Shutdown_jump_arrow=48
+Shutdown_arrow_padding=7,9,100%
+
+; Programs tree
+Programs_selection=59
+Programs_selection_slices_X=3,1,3
+Programs_selection_slices_Y=4,66,4
+Programs_new_selection=#FFE599
+Programs_text_color=#000000,#000000,#7F7F7F,#7F7F7F
+Programs_text_padding=0,1,0,2,100%
+Programs_icon_padding=2,2,2,2,100%
+Programs_indent=0
+Programs_icon=60
+Programs_button_text_padding=1,5,8,5,100%
+Programs_button_new_text_padding=1,5,8,5,100%
+Programs_button_selection=63
+Programs_button_selection_slices_X=3,1,3
+Programs_button_selection_slices_Y=3,19,3
+Programs_button_new_selection=64
+Programs_button_new_selection_slices_X=3,1,3
+Programs_button_new_selection_slices_Y=3,19,3
+
+; Scrollbar
+Scrollbar_button=65
+Scrollbar_button_slices_X=3,10,4
+Scrollbar_button_slices_Y=5,12,5
+Scrollbar_thumb=66
+Scrollbar_thumb_slices_X=3,10,4
+Scrollbar_thumb_slices_Y=5,12,5
+Scrollbar_background=67
+Scrollbar_background_slices_X=3,10,4
+Scrollbar_background_slices_Y=5,12,5
+Scrollbar_arrows=68
+Scrollbar_gripper=69
+
+; LIST SECTION
+List_selection=80
+List_selection_slices_X=5,1,5
+List_selection_slices_Y=5,66,5
+List_split_selection=81
+List_split_selection_slices_X=5,1,3,2,1,5
+List_split_selection_slices_Y=5,66,5
+List_icon_padding=5,3,3,3,75%,100%,100%,100%
+List_text_padding=2,2,4,3,75%
+List_separator_font="Segoe UI",normal,-9.5
+List_separator_text_color=#003399,#003399
+List_separator_text_padding=3,2,0,3,100%
+List_separator_icon_padding=6,3,3,3,100%
+List_separator_split_font="Segoe UI",normal,-9.5
+List_separator_split_text_color=#003399,#003399
+List_separator_split_text_padding=3,2,0,3,100%
+List_separator_split_icon_padding=6,3,3,3,100%
+List_separator=82
+List_separator_slices_X=8,6,8
+List_arrow_padding=4,7,100%
+
+Pin_bitmap=83
+
+Main_search_indent=16
+Search_padding=12,15,15,9,100%,100%,0%,100%
+Search_frame=0
+Search_background=86
+Search_background_mask=87
+Search_background_slices_X=3,2,3, 0,1,17, 0,1,3
+Search_background_slices_Y=5,1,2, 0,20,0, 2,1,3
+Search_background_padding=1,-3,1,2
+Search_background_search=88
+Search_background_search_mask=87
+Search_background_search_slices_X=3,2,3, 0,1,17, 0,1,3
+Search_background_search_slices_Y=5,1,2, 0,20,0, 2,1,3
+Search_background_search_padding=1,-3,1,2
+Search_background_jump=88
+Search_background_jump_mask=87
+Search_background_jump_slices_X=3,2,3, 0,1,17, 0,1,3
+Search_background_jump_slices_Y=5,1,2, 0,20,0, 2,1,3
+Search_background_jump_padding=1,-3,2,2
+Search_hint_font="Segoe UI",italic,-9
+More_bitmap=none
+Search_bitmap=89
+
+;SUB-MENU SECTION - describes the look of the sub-menus
+Submenu_padding=1,1,1,1
+Submenu_opacity=region
+Submenu_font="Segoe UI",normal,-9
+Submenu_text_color=#000000,#000000,#7F7F7F,#7F7F7F
+Submenu_opacity=region
+Submenu_background=#FFFFFF
+Submenu_bitmap=92
+Submenu_bitmap_slices_X=45,13,3
+Submenu_bitmap_slices_Y=3,8,3
+Submenu_selection=95
+Submenu_selection_slices_X=3,1,3
+Submenu_selection_slices_Y=4,66,4
+Submenu_split_selection=96
+Submenu_split_selection_slices_X=3,1,3,2,1,3
+Submenu_split_selection_slices_Y=4,66,4
+Submenu_pager=31
+Submenu_pager_slices_X=3,10,3
+Submenu_pager_slices_Y=3,9,3
+Submenu_pager_arrows=32
+Submenu_arrow_color=#4B4B4B,#4B4B4B
+Submenu_separator_text_padding=3,2,4,3,100%
+Submenu_separator_font="Segoe UI",normal,-9
+Submenu_separator_text_color=#0062ad
+Submenu_new_selection=97
+Submenu_new_selection_slices_X=3,1,3
+Submenu_new_selection_slices_Y=4,66,4
+Submenu_icon_padding=3,2,6,2,0%,100%,0%,100%
+Submenu_text_padding=1,1,8,2,100%
+Submenu_separator=98
+Submenu_separator_slices_X=30,21,2
+Submenu_separatorV=101
+Submenu_separatorV_slices_Y=8,6,8
+
+; OPTIONS
+OPTION USER_IMAGE=#7014,1
+OPTION RADIOGROUP=User picture glare#Choose whether the user picture is glared or not.,0,NO_GLARE|GLARE
+OPTION NO_GLARE=Regular user picture#There is no glare on the user picture.,0
+OPTION GLARE=Glared user picture#The user picture is glared like on Windows 7.,1
+
+OPTION SMALL_ICONS=#7011,0
+OPTION LARGE_FONT=#7006,0
+OPTION GLASS_SHADOW=#7024,0
+
+OPTION RADIOGROUP=Glass color intensity#Changes how much the glass color affects the start menu color.,0,HIGH|MED|MED_LOW|LOW|LOW_MILD
+OPTION HIGH=High#The glass color will significantly affect the start menu color.,0
+OPTION MED=Medium#The glass color will affect the the start menu color normally.,0
+OPTION MED_LOW=Medium with less vibrant top#Same as Medium but the top of the menu is not as bright.,0
+OPTION LOW=Low#The glass color will affect the start menu color less. This is close to Windows 7. Set Glass opacity to start menu 25 taskbar 33. Matches with accent color.,1
+OPTION LOW_MILD=Low opacity with mild gradient#Same as Low but with a more mild gradient. Set Glass opacity to start menu 25 taskbar 33. Matches with accent color.,0
+
+OPTION WHITE_SUBMENUS=#7016,0
+OPTION WIN7_SCROLL_BUTTON_OFFSET=Original scroll buttons look#A more original scroll buttons look. More visible on HDPI displays.,0
+OPTION RADIOGROUP=Shutdown update icon#Select which icon is displayed on the shutdown button when there are pending updates.,0,SHUTDOWN_UPDATE_IMAGE|SHUTDOWN_UPDATE_BLUE_IMAGE
+OPTION SHUTDOWN_UPDATE_IMAGE=7 orange shield shutdown update icon#An orange shield is displayed on the Shutdown button when there are pending updates.,1
+OPTION SHUTDOWN_UPDATE_BLUE_IMAGE=7 Windows Update shutdown update icon#A Windows Update icon is displayed on the Shutdown button when there are pending updates.,0
+
+OPTION PROGRAMS_INDENT=Programs tree indented#When this is checked the programs tree will be slightly indented.,0
+OPTION MAIN_MENU_SHAD=Disable main menu shadow#When this is checked the shadow on the main menu is disabled. Overrides CSM's 'Enable menu shadow' option.,0
+
+OPTION RADIOGROUP=Main menu reflections#Choose the reflection bars on the start menu.,0,NO_INTERN|INTERN1|INTERN2|INTERN3|INTERN4|INTERN5|
+OPTION NO_INTERN=None#No reflection bars on the start menu.,1
+OPTION INTERN1=Large#Large reflection bars on the start menu.,0
+OPTION INTERN2=Medium#Medium reflection bars on the start menu.,0
+OPTION INTERN3=Small#Small reflection bars on the start menu.,0
+OPTION INTERN4=Gradient mix#A mix of large, medium, and small reflection bars on the start menu.,0
+OPTION INTERN5=Windows 7 beta build 6801#Reflection bars similar to the Windows 7 beta build 6801.,0
+
+OPTION MED_SIZE=Enable for 125% 120 DPI#Allows the start menu to scale better for higher-DPI screens. Only check this option if it applies to you.,0
+
+[USER_IMAGE]
+; This shows your account picture in the start menu
+User_bitmap=112
+User_image_size=48
+User_frame_position=36
+User_image_offset=8,8
+User_bitmap_outside=1
+User_image_padding=0,7
+
+[USER_IMAGE AND GLARE]
+; This adds glare to your user picture in the start menu
+User_bitmap=115
+
+[SMALL_ICONS]
+; This makes the icons in the main menu small instead of large
+Main_large_icons=0
+;Main_arrow_padding=7,9,100%
+;Main_split_arrow_padding=9,9,100%
+Programs_button_icon_padding=3,3,2,3,100%
+Programs_button_new_icon_padding=3,3,2,3,100%
+Main_new_selection=64
+Main_new_selection_slices_X=3,1,3
+Main_new_selection_slices_Y=3,19,3
+Main2_text_padding=1,6,6,6,100%
+
+[LARGE_FONT]
+; This increases the size of the font in the start menu (default is 9)
+Main_font="Segoe UI",normal,-10
+Submenu_font="Segoe UI",normal,-10
+Shutdown_text_padding=8,4,9,6,100%
+Search_hint_font="Segoe UI",italic,-10
+List_separator_font="Segoe UI",normal,-10.5
+List_separator_split_font="Segoe UI",normal,-10.5
+Main_text_padding=1,0,8,2,100%
+Programs_text_padding=0,0,0,2,100%
+Programs_button_text_padding=1,4,8,6,100%
+Programs_button_new_text_padding=1,4,8,6,100%
+List_text_padding=1,0,4,2,100%
+List_separator_text_padding=3,0,0,2,100%
+List_separator_split_text_padding=3,0,0,2,100%
+Submenu_text_padding=1,0,8,2,100%
+Main2_text_padding=1,9,6,11,75%
+
+[LARGE_FONT AND SMALL_ICONS]
+; This makes sure stuff doesn't look weird when both Large font and Small icons are enabled
+Main2_text_padding=1,5,6,7,100%
+
+[GLASS_SHADOW]
+; This adds a shadow to text in the second column of the start menu to increase readability
+Main2_text_shadow_color=#202020,#202020,#000000,#000000
+Main2_arrow=109
+Main2_arrow_mask=109
+Main2_arrow_tint1=#FFFFFF
+Main2_arrow_tint2#202020
+Shutdown_text_shadow_color=#202020,#202020
+Shutdown_search_text_shadow_color=none
+Shutdown_jump_text_shadow_color=none
+Shutdown_arrow=49
+Shutdown_arrow_mask=0
+Shutdown_search_arrow=50
+Shutdown_search_arrow_mask=0
+Shutdown_jump_arrow=50
+Shutdown_jump_arrow_mask=0
+
+[HIGH]
+; This is for the high opacity setting
+Main_bitmap=7
+Main_bitmap_mask=8
+Main_bitmap_jump=11
+Main_bitmap_jump_mask=12
+Main_bitmap_search=9
+Main_bitmap_search_mask=10
+
+[MED]
+; This is for the medium opacity setting
+Main_bitmap=13
+Main_bitmap_mask=14
+Main_bitmap_jump=17
+Main_bitmap_jump_mask=18
+Main_bitmap_search=15
+Main_bitmap_search_mask=16
+Shutdown_selection=44
+Shutdown_selection_mask=#200000
+Shutdown_search_selection=45
+Shutdown_search_selection_mask=0
+Shutdown_jump_selection=45
+Shutdown_jump_selection_mask=0
+
+[MED_LOW]
+; This is for the Medium with less vibrant top setting
+Main_bitmap=13
+Main_bitmap_mask=19
+Main_bitmap_jump=17
+Main_bitmap_jump_mask=21
+Main_bitmap_search=15
+Main_bitmap_search_mask=20
+Shutdown_selection=44
+Shutdown_selection_mask=#200000
+Shutdown_search_selection=45
+Shutdown_search_selection_mask=0
+Shutdown_jump_selection_45
+Shutdown_jump_selection_mask=0
+
+[LOW]
+; This is for the Low opacity setting (the default)
+Main_bitmap=22
+Main_bitmap_mask=0
+Main_bitmap_jump=24
+Main_bitmap_jump_mask=0
+Main_bitmap_search=23
+Main_bitmap_search_mask=0
+Main_selection_mask=0
+Main_split_selection_mask=0
+Shutdown_selection=44
+Shutdown_search_selection=45
+Shutdown_jump_selection=45
+Shutdown_selection_mask=0
+Shutdown_search_selection_mask=0
+Shutdown_jump_selection_mask=0
+Submenu_selection_mask=0
+Submenu_split_selection_mask=0
+Main_new_selection_mask=0
+Programs_selection_mask=0
+Programs_button_selection_mask=0
+Programs_new_selection_mask=0
+Programs_button_new_selection_mask=0
+Submenu_new_selection_mask=0
+
+[LOW_MILD]
+; This is for the Low with mild gradient opacity setting
+Main_bitmap=25
+Main_bitmap_mask=0
+Main_bitmap_jump=27
+Main_bitmap_jump_mask=0
+Main_bitmap_search=26
+Main_bitmap_search_mask=0
+Programs_selection_mask=0
+List_selection_mask=0
+List_split_selection_mask=0
+Main_selection_mask=0
+Main_split_selection_mask=0
+Main2_selection_mask=0
+Main2_split_selection_mask=0
+Shutdown_selection=46
+Shutdown_search_selection=45
+Shutdown_jump_selection=45
+Shutdown_selection_mask=0
+Shutdown_search_selection_mask=0
+Shutdown_jump_selection_mask=0
+Submenu_selection_mask=0
+Submenu_split_selection_mask=0
+Main_new_selection_mask=0
+Programs_selection_mask=0
+Programs_button_selection_mask=0
+Programs_new_selection_mask=0
+Programs_button_new_selection_mask=0
+Submenu_new_selection_mask=0
+
+[WHITE_SUBMENUS]
+; This makes the sub-menus white
+Submenu_padding=2,2,2,2
+Submenu_background=#FFFFFF
+Submenu_opacity=alpha
+Submenu_bitmap=102
+Submenu_bitmap_mask=0
+Submenu_bitmap_slices_X=4,4,4
+Submenu_bitmap_slices_Y=4,4,4
+Submenu_selection=103
+Submenu_selection_slices_X=3,1,3
+Submenu_selection_slices_Y=4,66,4
+Submenu_split_selection=104
+Submenu_split_selection_slices_X=3,1,3,2,1,3
+Submenu_split_selection_slices_Y=4,66,4
+Submenu_separator=106
+Submenu_separator_slices_X=8,6,8
+Submenu_icon_padding=3,2,3,2,100%
+Submenu_text_padding=1,1,8,2,100%
+Submenu_separatorV=108
+Submenu_separatorV_slices_Y=8,6,8
+Submenu_new_selection=105
+Submenu_new_selection_slices_X=2,1,2
+Submenu_new_selection_slices_Y=2,19,2
+Submenu_arrow_color=#000000,#000000
+
+[WHITE_SUBMENUS AND LARGE_FONT]
+; This ensures the sub-menus look correct with white submenus and large font enabled
+Submenu_text_padding=1,0,8,2,100%
+Submenu_separator_text_padding=3,0,4,2,100%
+
+[WIN7_SCROLL_BUTTON_OFFSET]
+; This is a test option to mimic the scroll button offset on Windows 7
+Scrollbar_button_slices_X=8,1,8
+Scrollbar_button_slices_Y=5,12,5
+Scrollbar_thumb_slices_X=8,1,8
+Scrollbar_thumb_slices_Y=5,12,5
+Scrollbar_arrows=70
+Scrollbar_gripper=71
+
+[SHUTDOWN_UPDATE_IMAGE]
+; This will show an orange shield icon on the shutdown button when there are pending updates
+Shutdown_bitmap=118
+Shutdown_icon_padding=5,2,-5,4,100%
+
+[SHUTDOWN_UPDATE_BLUE_IMAGE]
+; This will show a Windows Update icon (from Windows 7) on the shutdown button when there are pending updates
+Shutdown_bitmap=121
+Shutdown_icon_padding=5,2,-5,4,100%
+
+[PROGRAMS_INDENT]
+; This will indent the programs tree slightly
+Programs_indent=-7.65%
+
+[MAIN_MENU_SHAD]
+; This will remove the shadow on the start menu
+Main_shadow=0
+
+[INTERN1]
+; Large reflection bars
+Main_Pattern_mask=124
+Main_Pattern_search_mask=125
+Main_Pattern_jump_mask=126
+Search_pattern_mask=127
+Search_pattern_search_mask=127
+Search_pattern_jump_mask=127
+Pattern1=134
+
+[INTERN2]
+; Medium reflection bars
+Main_Pattern_mask=128
+Main_Pattern_search_mask=129
+Main_Pattern_jump_mask=130
+Search_pattern_mask=127
+Search_pattern_search_mask=127
+Search_pattern_jump_mask=127
+Pattern1=135
+
+[INTERN3]
+; Small reflection bars
+Main_Pattern_mask=128
+Main_Pattern_search_mask=129
+Main_Pattern_jump_mask=130
+Search_pattern_mask=127
+Search_pattern_search_mask=127
+Search_pattern_jump_mask=127
+Pattern1=136
+
+[INTERN4]
+; Gradient reflection bars
+Main_Pattern_mask=124
+Main_Pattern_search_mask=125
+Main_Pattern_jump_mask=126
+Search_pattern_mask=127
+Search_pattern_search_mask=127
+Search_pattern_jump_mask=127
+Pattern1=137
+
+[INTERN5]
+; Windows 7 beta build 6801 reflections
+Main_Pattern_mask=131
+Main_Pattern_search_mask=132
+Main_Pattern_jump_mask=133
+Search_pattern_mask=127
+Search_pattern_search_mask=127
+Search_pattern_jump_mask=127
+Pattern1=138
+
+;------------------------------------------------------------------------
+
+[MED_SIZE]
+Main2_padding=6,10,8,11
+Main_arrow=139
+Main2_arrow=140
+Shutdown_arrow=51
+Shutdown_search_arrow=52
+Shutdown_jump_arrow=52
+Search_bitmap=90
+Search_arrow=141
+Programs_icon=61
+Main_separator=35
+Main2_separator=40
+Submenu_bitmap=93
+Submenu_separator=99
+Submenu_arrow=139
+Search_padding=10,15,15,9,100%,100%,0%,100%
+Submenu_icon_padding=4,2,8,2,0%,100%,0%,100%
+Shutdown_text_padding=8,4,9,6,100%,100%,100%,75%
+Scrollbar_arrows=72
+Scrollbar_gripper=73
+Pin_bitmap=84
+
+[MED_SIZE AND LARGE_FONT]
+Programs_button_text_padding=1,4,8,6,100%
+Programs_button_new_text_padding=1,4,8,6,100%
+
+[MED_SIZE AND WHITE_SUBMENUS]
+Submenu_padding=2,2,2,2
+Submenu_background=#FFFFFF
+Submenu_opacity=alpha
+Submenu_bitmap=102
+Submenu_bitmap_mask=0
+Submenu_bitmap_slices_X=4,4,4
+Submenu_bitmap_slices_Y=4,4,4
+Submenu_icon_padding=3,2,3,2,50%,100%,100%,100%
+Submenu_separator=106
+
+[MED_SIZE AND GLASS_SHADOW]
+Main2_arrow=110
+Main2_arrow_mask=110
+Shutdown_arrow=53
+Shutdown_arrow_mask=0
+Shutdown_search_arrow=54
+Shutdown_search_arrow_mask=0
+Shutdown_jump_arrow=54
+Shutdown_jump_arrow_mask=0
+
+[MED_SIZE AND USER_IMAGE]
+User_bitmap=113
+User_image_size=60
+User_image_offset=10,10
+User_image_padding=0,8
+User_frame_position=45
+
+[MED_SIZE AND USER_IMAGE AND GLARE]
+User_bitmap=116
+
+[MED_SIZE AND WIN7_SCROLL_BUTTON_OFFSET
+Scrollbar_button_slices_X=8,1,8
+Scrollbar_button_slices_Y=5,12,5
+Scrollbar_thumb_slices_X=8,1,8
+Scrollbar_thumb_slices_Y=5,12,5
+Scrollbar_arrows=74
+Scrollbar_gripper=75
+
+[MED_SIZE AND SHUTDOWN_UPDATE_IMAGE]
+Shutdown_bitmap=119
+
+[MED_SIZE AND SHUTDOWN_UPDATE_BLUE_IMAGE]
+Shutdown_bitmap=122
+
+;------------------------------------------------------------------------
+
+[HIGH_DPI]
+Main2_padding=7,10,9,11
+Main_pager_arrows=33
+Submenu_pager_arrows=33
+Shutdown_arrow=55
+Shutdown_search_arrow=56
+Shutdown_jump_arrow=56
+Main_separator=36
+Main2_separator=41
+Programs_icon=62
+Search_bitmap=91
+Programs_icon_padding=0,2,2,2,100%,100%,100%,100%
+Programs_button_text_padding=1,4,8,6,100%,75%,100%,100%
+Programs_button_new_text_padding=1,4,8,6,100%,75%,100%,100%
+Submenu_separator=100
+Submenu_separator_slices_X=43,21,2
+Shutdown_padding=0,9,0,9,100%,100%,100%,85%
+Search_padding=8,15,15,9,100%,100%,0%,100%
+Main2_arrow_padding=8,8,100%,100%
+Main_icon_padding=3,3,3,3,75%,75%,75%,75%
+List_icon_padding=4,3,3,3,75%,75%,75%,75%
+Scrollbar_arrows=76
+Scrollbar_gripper=77
+Pin_bitmap=85
+
+[HIGH_DPI AND LARGE_FONT]
+Programs_button_text_padding=1,3,8,6,100%,75%,100%,100%
+Programs_button_new_text_padding=1,3,8,6,100%,75%,100%,100%
+Shutdown_text_padding=8,4,9,7,100%,100%,100%,100%
+
+[HIGH_DPI AND WHITE_SUBMENUS]
+Submenu_padding=3,3,3,3
+Submenu_background=#FFFFFF
+Submenu_opacity=alpha
+Submenu_bitmap=102
+Submenu_bitmap_mask=0
+Submenu_bitmap_slices_X=4,4,4
+Submenu_bitmap_slices_Y=4,4,4
+Submenu_separator=107
+Submenu_separator_slices_X=8,6,8
+Submenu_icon_padding=2,2,3,2,75%,100%,100%,100%
+
+[USER_IMAGE AND HIGH_DPI]
+User_bitmap=114
+User_image_size=72
+User_image_offset=12,12
+User_image_padding=0,8
+User_frame_position=54
+
+[HIGH_DPI AND USER_IMAGE AND GLARE]
+User_bitmap=117
+
+[HIGH_DPI AND WIN7_SCROLL_BUTTON_OFFSET
+Scrollbar_button_slices_X=8,1,8
+Scrollbar_button_slices_Y=5,12,5
+Scrollbar_thumb_slices_X=8,1,8
+Scrollbar_thumb_slices_Y=5,12,5
+Scrollbar_arrows=78
+Scrollbar_gripper=79
+
+[HIGH_DPI AND SHUTDOWN_UPDATE_IMAGE]
+Shutdown_bitmap=120
+
+[HIGH_DPI AND SHUTDOWN_UPDATE_BLUE_IMAGE]
+Shutdown_bitmap=123
+
+[HIGH_DPI AND GLASS_SHADOW]
+Main2_arrow=111
+Main2_arrow_mask=111
+Shutdown_arrow=57
+Shutdown_arrow_mask=0
+Shutdown_search_arrow=58
+Shutdown_search_arrow_mask=0
+Shutdown_jump_arrow=58
+Shutdown_jump_arrow_mask=0
+
+;------------------------------------------------------------------------
+
+[TOUCH_ENABLED AND NOT SMALL_ICONS]
+Main_split_arrow_padding=25,25,100%
+Main2_split_arrow_padding=25,25,100%
+Shutdown_arrow_padding=25,25,100%
