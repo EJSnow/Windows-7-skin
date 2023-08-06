@@ -4,7 +4,7 @@ This is a Windows 7-style skin for Open-Shell Menu. Download Open-Shell Menu [he
 1. Download the skin from [Releases](https://github.com/NoTouchingthePC/Windows-7-skin/releases/latest/).
 2. Unzip the archive somewhere where the files can't be deleted easily.
 3. Copy the skin to your Open-Shell skins directory (typically C:\Program Files\Open-Shell\Skins).
-4. Copy the icons folder and the start button to this folder: C:\Users\<your username>\AppData\Local\OpenShell.
+4. Copy the icons folder, the start button, and the taskbar textures to this folder: C:\Users\<your username>\AppData\Local\OpenShell.
 5. Optionally, open the menu settings and in the Backup button click Save to XML.
 6. Open the menu settings and click Load from XML in the Backup button and navigate to the folder where you saved the skin files and select the file named Windows-7.xml. Click OK and you will see a prompt that you have to restart the start menu with instructions to do so. Click OK on that prompt and restart the start menu
 7. The skin with a taskbar texture and custom start button should be applied now. You can modify most settings as usual, however I'd recommend not touching the glass opacity option for the start menu. Or the custom start button or taskbar options either (Exception: if the start button is the wrong size, you can tweak the button size to get it the right size). You might mess up your Windows 7 look 😉.
