@@ -13,4 +13,4 @@ To view the changelog, [click here](https://github.com/Win761/Windows-7-skin/blo
 You're all done now. Enjoy your Windows 7 look!
 *Note*: The taskbar texture is for when the taskbar is on the bottom, however if you prefer your taskbar on another side of the screen, simply change the taskbar texture and border values, then restart the start menu. The borders should be: For taskbar on the bottom - horizontal 0,0 vertical 2,0 • For taskbar on the top - horizontal 0,0 vertical 0,2 • For taskbar on the right - horizontal 2,0 vertical 0,0 • For taskbar on the left - horizontal 0,2 vertical 0,0
 ## What you can do with this
-Feel free to modify this skin as you wish. It can be used as a template to create your own skin, or you can modify it however you want. If it's still the same kind of skin (A Windows 7 lookalike) I will ask that you attribute my skin as the original. (For example you can state in your readme that you modified this skin, and provide a link to this repo.)
+Feel free to modify this skin as you wish. It can be used as a template to create your own skin, or you can modify it however you want.
