@@ -1,24 +1,24 @@
 ; Windows 7 lookalike skin. Modded Windows Aero and WIN7LIKE skins.
 
-About=Windows 7 lookalike for CSM 4.3.0 or later. Can you tell the difference?\n\nWindows 7 is a trademark of Microsoft.
+About=Windows 7 start menu lookalike for Open-Shell 4.4.153 or later. Can you tell the difference?\nIf using on Windows 7, Aero is required.\n\nLinks:\n<A HREF="https://github.com/Win761/Windows-7-skin/releases">Check for updates on GitHub</A>\n<A HREF="https://github.com/Win761/Windows-7-skin">Source code on GitHub</A>\nWin761 November 2023
 AboutIcon=1
 Version=3
 
 ;MAIN BITMAP SECTION - describes the background of the main menu
-Main_bitmap=1
-Main_bitmap_search=3
-Main_bitmap_jump=5
-Main_bitmap_mask=2
-Main_bitmap_search_mask=4
-Main_bitmap_jump_mask=6
+Main_bitmap=7
+Main_bitmap_mask=8
+Main_bitmap_search=9
+Main_bitmap_search_mask=10
+Main_bitmap_jump=11
+Main_bitmap_jump_mask=12
 Main_opacity=glass
 Main2_opacity=fullglass
-Main_bitmap_slices_X=13,1,6,0,145,7
-Main_bitmap_search_slices_X=13,2,13
+Main_bitmap_slices_X=13,1,6,9,958,13
+Main_bitmap_search_slices_X=13,1,13
 Main_bitmap_jump_slices_X=13,1,3,1,1,13
 Main_bitmap_slices_Y=13,467,14
-Main_bitmap_search_slices_Y=13,358,14
-Main_bitmap_jump_slices_Y=13,358,14
+Main_bitmap_search_slices_Y=13,467,14
+Main_bitmap_jump_slices_Y=13,467,14
 
 ;MAIN MENU SECTION - describes the menu portion of the main menu
 Main_large_icons=1
@@ -106,16 +106,16 @@ Programs_button_new_selection_slices_Y=3,19,3
 
 ; Scrollbar
 Scrollbar_button=65
-Scrollbar_button_slices_X=3,10,4
+Scrollbar_button_slices_X=8,1,8
 Scrollbar_button_slices_Y=5,12,5
 Scrollbar_thumb=66
-Scrollbar_thumb_slices_X=3,10,4
+Scrollbar_thumb_slices_X=8,1,8
 Scrollbar_thumb_slices_Y=5,12,5
 Scrollbar_background=67
 Scrollbar_background_slices_X=3,10,4
 Scrollbar_background_slices_Y=5,12,5
-Scrollbar_arrows=68
-Scrollbar_gripper=69
+Scrollbar_arrows=70
+Scrollbar_gripper=71
 
 ; LIST SECTION
 List_selection=80
@@ -198,39 +198,35 @@ Submenu_separatorV_slices_Y=8,6,8
 
 ; OPTIONS
 OPTION USER_IMAGE=#7014,1
-OPTION RADIOGROUP=User picture glare#Choose whether the user picture is glared or not.,0,NO_GLARE|GLARE
-OPTION NO_GLARE=Regular user picture#There is no glare on the user picture.,0
-OPTION GLARE=Glared user picture#The user picture is glared like on Windows 7.,1
+OPTION RADIOGROUP="User picture glare#Choose how much the user picture is glared",0,NO_GLARE|HALF_GLARE|FULL_GLARE
+OPTION NO_GLARE="No glare#No glare on the user picture",0
+OPTION HALF_GLARE="Half glare#Less intense glare on the user picture",0
+OPTION FULL_GLARE="Full glare#Original Windows 7 user picture glare",1
 
 OPTION SMALL_ICONS=#7011,0
 OPTION LARGE_FONT=#7006,0
 OPTION GLASS_SHADOW=#7024,0
 
-OPTION RADIOGROUP=Glass color intensity#Changes how much the glass color affects the start menu color.,0,HIGH|MED|MED_LOW|LOW|LOW_MILD
-OPTION HIGH=High#The glass color will significantly affect the start menu color.,0
-OPTION MED=Medium#The glass color will affect the the start menu color normally.,0
-OPTION MED_LOW=Medium with less vibrant top#Same as Medium but the top of the menu is not as bright.,0
-OPTION LOW=Low#The glass color will affect the start menu color less. This is close to Windows 7. Set Glass opacity to start menu 25 taskbar 33. Matches with accent color.,1
-OPTION LOW_MILD=Low opacity with mild gradient#Same as Low but with a more mild gradient. Set Glass opacity to start menu 25 taskbar 33. Matches with accent color.,0
+OPTION RADIOGROUP="Glass color intensity#Changes how much the glass color affects the start menu color",0,HIGH|MED|MED_LOW|LOW|LOW_MILD
+OPTION HIGH="High#The glass color will significantly affect the start menu color",0
+OPTION MED="Medium#The glass color will affect the the start menu color normally",0
+OPTION MED_LOW="Medium with less vibrant top#Same as Medium but the top of the menu is not as bright",0
+OPTION LOW="Low#The glass color will affect the start menu color less. This is close to Windows 7. Set Glass opacity to start menu 25 taskbar 33. Matches with accent color",1
+OPTION LOW_MILD="Low opacity with mild gradient#Same as Low but with a more mild gradient. Looks better with taskbar on the side. Set Glass opacity to start menu 25 taskbar 33. Matches with accent color",0
 
 OPTION WHITE_SUBMENUS=#7016,0
-OPTION WIN7_SCROLL_BUTTON_OFFSET=Original scroll buttons look#A more original scroll buttons look. More visible on HDPI displays.,0
-OPTION RADIOGROUP=Shutdown update icon#Select which icon is displayed on the shutdown button when there are pending updates.,0,SHUTDOWN_UPDATE_IMAGE|SHUTDOWN_UPDATE_BLUE_IMAGE
-OPTION SHUTDOWN_UPDATE_IMAGE=7 orange shield shutdown update icon#An orange shield is displayed on the Shutdown button when there are pending updates.,1
-OPTION SHUTDOWN_UPDATE_BLUE_IMAGE=7 Windows Update shutdown update icon#A Windows Update icon is displayed on the Shutdown button when there are pending updates.,0
+;OPTION WIN7_SCROLL_BUTTON_OFFSET="Original scroll buttons look (More visible on high-DPI displays)",1
+OPTION RADIOGROUP="Shutdown update icon#Select which icon is displayed on the shutdown button when there are pending updates",0,SHUTDOWN_UPDATE_IMAGE|SHUTDOWN_UPDATE_BLUE_IMAGE
+OPTION SHUTDOWN_UPDATE_IMAGE="7 orange shield shutdown update icon#An orange shield is displayed on the Shutdown button when there are pending updates",1
+OPTION SHUTDOWN_UPDATE_BLUE_IMAGE="7 Windows Update shutdown update icon#A Windows Update icon is displayed on the Shutdown button when there are pending updates",0
 
-OPTION PROGRAMS_INDENT=Programs tree indented#When this is checked the programs tree will be slightly indented.,0
-OPTION MAIN_MENU_SHAD=Disable main menu shadow#When this is checked the shadow on the main menu is disabled. Overrides CSM's 'Enable menu shadow' option.,0
+OPTION MAIN_MENU_SHADOW="Disable main menu shadow#When this is checked the drop shadow on the main menu is disabled. Overrides CSM's 'Enable menu shadow' option.",1
 
-OPTION RADIOGROUP=Main menu reflections#Choose the reflection bars on the start menu.,0,NO_INTERN|INTERN1|INTERN2|INTERN3|INTERN4|INTERN5|
-OPTION NO_INTERN=None#No reflection bars on the start menu.,1
-OPTION INTERN1=Large#Large reflection bars on the start menu.,0
-OPTION INTERN2=Medium#Medium reflection bars on the start menu.,0
-OPTION INTERN3=Small#Small reflection bars on the start menu.,0
-OPTION INTERN4=Gradient mix#A mix of large, medium, and small reflection bars on the start menu.,0
-OPTION INTERN5=Windows 7 beta build 6801#Reflection bars similar to the Windows 7 beta build 6801.,0
-
-OPTION MED_SIZE=Enable for 125% 120 DPI#Allows the start menu to scale better for higher-DPI screens. Only check this option if it applies to you.,0
+OPTION RADIOGROUP="Main menu reflection bars#Choose the reflection bars on the start menu. No reflections by default because performance takes a hit with them enabled.",0,NO_INTERN|INTERN1|INTERN2|INTERN3
+OPTION NO_INTERN="None#No reflection bars on the start menu",1
+OPTION INTERN1="Gradient mix#Mixture of different size reflection bars on the start menu",0
+OPTION INTERN2="Windows 7 beta build 6801#Reflection image from Windows 7 beta build 6801",0
+OPTION INTERN3="Windows 7 SP1#Reflection image from Windows 7 SP1",0
 
 [USER_IMAGE]
 ; This shows your account picture in the start menu
@@ -241,9 +237,12 @@ User_image_offset=8,8
 User_bitmap_outside=1
 User_image_padding=0,7
 
-[USER_IMAGE AND GLARE]
+[USER_IMAGE AND HALF_GLARE]
 ; This adds glare to your user picture in the start menu
 User_bitmap=115
+
+[USER_IMAGE AND FULL_GLARE]
+User_bitmap=128
 
 [SMALL_ICONS]
 ; This makes the icons in the main menu small instead of large
@@ -300,10 +299,10 @@ Shutdown_jump_arrow_mask=0
 ; This is for the high opacity setting
 Main_bitmap=7
 Main_bitmap_mask=8
-Main_bitmap_jump=11
-Main_bitmap_jump_mask=12
 Main_bitmap_search=9
 Main_bitmap_search_mask=10
+Main_bitmap_jump=11
+Main_bitmap_jump_mask=12
 
 [MED]
 ; This is for the medium opacity setting
@@ -421,14 +420,7 @@ Submenu_arrow_color=#000000,#000000
 Submenu_text_padding=1,0,8,2,100%
 Submenu_separator_text_padding=3,0,4,2,100%
 
-[WIN7_SCROLL_BUTTON_OFFSET]
-; This is a test option to mimic the scroll button offset on Windows 7
-Scrollbar_button_slices_X=8,1,8
-Scrollbar_button_slices_Y=5,12,5
-Scrollbar_thumb_slices_X=8,1,8
-Scrollbar_thumb_slices_Y=5,12,5
-Scrollbar_arrows=70
-Scrollbar_gripper=71
+;[WIN7_SCROLL_BUTTON_OFFSET]
 
 [SHUTDOWN_UPDATE_IMAGE]
 ; This will show an orange shield icon on the shutdown button when there are pending updates
@@ -444,42 +436,12 @@ Shutdown_icon_padding=5,2,-5,4,100%
 ; This will indent the programs tree slightly
 Programs_indent=-7.65%
 
-[MAIN_MENU_SHAD]
+[MAIN_MENU_SHADOW]
 ; This will remove the shadow on the start menu
 Main_shadow=0
 
 [INTERN1]
-; Large reflection bars
-Main_Pattern_mask=124
-Main_Pattern_search_mask=125
-Main_Pattern_jump_mask=126
-Search_pattern_mask=127
-Search_pattern_search_mask=127
-Search_pattern_jump_mask=127
-Pattern1=134
-
-[INTERN2]
-; Medium reflection bars
-Main_Pattern_mask=128
-Main_Pattern_search_mask=129
-Main_Pattern_jump_mask=130
-Search_pattern_mask=127
-Search_pattern_search_mask=127
-Search_pattern_jump_mask=127
-Pattern1=135
-
-[INTERN3]
-; Small reflection bars
-Main_Pattern_mask=128
-Main_Pattern_search_mask=129
-Main_Pattern_jump_mask=130
-Search_pattern_mask=127
-Search_pattern_search_mask=127
-Search_pattern_jump_mask=127
-Pattern1=136
-
-[INTERN4]
-; Gradient reflection bars
+; Gradient mix reflection bars
 Main_Pattern_mask=124
 Main_Pattern_search_mask=125
 Main_Pattern_jump_mask=126
@@ -488,7 +450,7 @@ Search_pattern_search_mask=127
 Search_pattern_jump_mask=127
 Pattern1=137
 
-[INTERN5]
+[INTERN2]
 ; Windows 7 beta build 6801 reflections
 Main_Pattern_mask=131
 Main_Pattern_search_mask=132
@@ -498,9 +460,19 @@ Search_pattern_search_mask=127
 Search_pattern_jump_mask=127
 Pattern1=138
 
+[INTERN3]
+; Windows 7 SP1 reflections
+Main_Pattern_mask=131
+Main_Pattern_search_mask=132
+Main_Pattern_jump_mask=133
+Search_pattern_mask=127
+Search_pattern_search_mask=127
+Search_pattern_jump_mask=127
+Pattern1=134
+
 ;------------------------------------------------------------------------
 
-[MED_SIZE]
+[120_DPI]
 Main2_padding=6,10,8,11
 Main_arrow=139
 Main2_arrow=140
@@ -518,15 +490,15 @@ Submenu_arrow=139
 Search_padding=10,15,15,9,100%,100%,0%,100%
 Submenu_icon_padding=4,2,8,2,0%,100%,0%,100%
 Shutdown_text_padding=8,4,9,6,100%,100%,100%,75%
-Scrollbar_arrows=72
-Scrollbar_gripper=73
+Scrollbar_arrows=74
+Scrollbar_gripper=75
 Pin_bitmap=84
 
-[MED_SIZE AND LARGE_FONT]
+[120_DPI AND LARGE_FONT]
 Programs_button_text_padding=1,4,8,6,100%
 Programs_button_new_text_padding=1,4,8,6,100%
 
-[MED_SIZE AND WHITE_SUBMENUS]
+[120_DPI AND WHITE_SUBMENUS]
 Submenu_padding=2,2,2,2
 Submenu_background=#FFFFFF
 Submenu_opacity=alpha
@@ -537,7 +509,7 @@ Submenu_bitmap_slices_Y=4,4,4
 Submenu_icon_padding=3,2,3,2,50%,100%,100%,100%
 Submenu_separator=106
 
-[MED_SIZE AND GLASS_SHADOW]
+[120_DPI AND GLASS_SHADOW]
 Main2_arrow=110
 Main2_arrow_mask=110
 Shutdown_arrow=53
@@ -547,28 +519,23 @@ Shutdown_search_arrow_mask=0
 Shutdown_jump_arrow=54
 Shutdown_jump_arrow_mask=0
 
-[MED_SIZE AND USER_IMAGE]
+[120_DPI AND USER_IMAGE]
 User_bitmap=113
 User_image_size=60
 User_image_offset=10,10
 User_image_padding=0,8
 User_frame_position=45
 
-[MED_SIZE AND USER_IMAGE AND GLARE]
+[120_DPI AND USER_IMAGE AND HALF_GLARE]
 User_bitmap=116
 
-[MED_SIZE AND WIN7_SCROLL_BUTTON_OFFSET
-Scrollbar_button_slices_X=8,1,8
-Scrollbar_button_slices_Y=5,12,5
-Scrollbar_thumb_slices_X=8,1,8
-Scrollbar_thumb_slices_Y=5,12,5
-Scrollbar_arrows=74
-Scrollbar_gripper=75
+[120_DPI AND USER_IMAGE AND FULL_GLARE]
+User_bitmap=129
 
-[MED_SIZE AND SHUTDOWN_UPDATE_IMAGE]
+[120_DPI AND SHUTDOWN_UPDATE_IMAGE]
 Shutdown_bitmap=119
 
-[MED_SIZE AND SHUTDOWN_UPDATE_BLUE_IMAGE]
+[120_DPI AND SHUTDOWN_UPDATE_BLUE_IMAGE]
 Shutdown_bitmap=122
 
 ;------------------------------------------------------------------------
@@ -594,8 +561,8 @@ Search_padding=8,15,15,9,100%,100%,0%,100%
 Main2_arrow_padding=8,8,100%,100%
 Main_icon_padding=3,3,3,3,75%,75%,75%,75%
 List_icon_padding=4,3,3,3,75%,75%,75%,75%
-Scrollbar_arrows=76
-Scrollbar_gripper=77
+Scrollbar_arrows=78
+Scrollbar_gripper=79
 Pin_bitmap=85
 
 [HIGH_DPI AND LARGE_FONT]
@@ -622,16 +589,11 @@ User_image_offset=12,12
 User_image_padding=0,8
 User_frame_position=54
 
-[HIGH_DPI AND USER_IMAGE AND GLARE]
+[HIGH_DPI AND USER_IMAGE AND HALF_GLARE]
 User_bitmap=117
 
-[HIGH_DPI AND WIN7_SCROLL_BUTTON_OFFSET
-Scrollbar_button_slices_X=8,1,8
-Scrollbar_button_slices_Y=5,12,5
-Scrollbar_thumb_slices_X=8,1,8
-Scrollbar_thumb_slices_Y=5,12,5
-Scrollbar_arrows=78
-Scrollbar_gripper=79
+[HIGH_DPI AND USER_IMAGE AND FULL_GLARE]
+User_bitmap=130
 
 [HIGH_DPI AND SHUTDOWN_UPDATE_IMAGE]
 Shutdown_bitmap=120
@@ -650,7 +612,6 @@ Shutdown_jump_arrow=58
 Shutdown_jump_arrow_mask=0
 
 ;------------------------------------------------------------------------
-
 [TOUCH_ENABLED AND NOT SMALL_ICONS]
 Main_split_arrow_padding=25,25,100%
 Main2_split_arrow_padding=25,25,100%
