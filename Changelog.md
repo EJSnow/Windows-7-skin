@@ -14,12 +14,16 @@ Changes:
 - Because of this, the taskbar textures and start button images no longer need to be copied to %localappdata%\OpenShell.
 - Also added a shortcut in the release package to %localappdata%\OpenShell to make it easier to copy the icons.
 
+[Download here](https://github.com/Win761/Windows-7-skin/releases/tag/v1.2)
+
 ## v1.1.1
 A fairly minor update.
 
 Changes:
 
 - Updated the scrollbar bitmaps slightly.
+
+[Download here](https://github.com/Win761/Windows-7-skin/releases/tag/v1.1.1)
 
 ## v1.1 Inital release
 Yay! A stable release!!
@@ -29,7 +33,11 @@ What's changed:
 - Fixed the tooltip for one of the skin's options
 - Removed unnecessary icons from the release package
 
+[Download here](https://github.com/Win761/Windows-7-skin/releases/tag/v1.1)
+
 ## v1.0 Release Candidate
 First release of this skin.
 
-Has [a few issues](https://github.com/NoTouchingthePC/Windows-7-skin/issues/1) but should mostly work.
+Has [a few issues](https://github.com/Win761/Windows-7-skin/issues/1) but should mostly work.
+
+[Download here](https://github.com/Win761/Windows-7-skin/releases/tag/v1.0-RC)
