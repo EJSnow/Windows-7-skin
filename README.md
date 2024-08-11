@@ -1,8 +1,8 @@
 # Windows 7 skin
-This is a Windows 7-style skin for Open-Shell Menu. You can download Open-Shell Menu [here](https://github.com/open-shell-menu/releases/latest/). I tweaked the built-in Windows Aero skin as well as [this guy's](https://github.com/CTVCAM8) Windows 7 start menu clone ([link](http://classicshell.net/forum/viewtopic.php?f=17&t=5824)) to get the look as close as I could to the real Windows 7 start menu. Mostly I just changed some of the default options, and removed some bitmaps. It should work all right, but if you do find something that isn't quite right, [submit an issue](https://github.com/Win761/Windows-7-skin/issues/new/choose) and I'll look into it. The skin was built with [Resource Hacker](http://www.angusj.com/resourcehacker/).
-To view the changelog, [click here](https://github.com/Win761/Windows-7-skin/blob/main/Changelog.md).
+This is a Windows 7-style skin for Open-Shell Menu. You can download Open-Shell Menu [here](https://github.com/open-shell-menu/releases/latest/). I tweaked the built-in Windows Aero skin as well as [this guy's](https://github.com/CTVCAM8) Windows 7 start menu clone ([link](http://classicshell.net/forum/viewtopic.php?f=17&t=5824)) to get the look as close as I could to the real Windows 7 start menu. Mostly I just changed some of the default options, and removed some bitmaps. It should work all right, but if you do find something that isn't quite right, [submit an issue](https://github.com/EJSnow/Windows-7-skin/issues/new/choose) and I'll look into it. The skin was built with [Resource Hacker](http://www.angusj.com/resourcehacker/).
+To view the changelog, [click here](https://github.com/EJSnow/Windows-7-skin/blob/main/Changelog.md).
 ## Installation
-1. Download the skin from [Releases](https://github.com/Win761/Windows-7-skin/releases/latest/).
+1. Download the skin from [Releases](https://github.com/EJSnow/Windows-7-skin/releases/latest/).
 2. Unzip the archive anywhere you want (just be sure you know where it is.)
 3. Copy the skin to your Open-Shell skins directory (typically C:\Program Files\Open-Shell\Skins).
 4. Copy the icons folder to this folder: C:\Users\<your username>\AppData\Local\OpenShell.
